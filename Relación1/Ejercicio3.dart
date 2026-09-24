@@ -1,14 +1,4 @@
 void main() {
-  //Ejercicio 3
-  int entero = 1;
-  double decimal = 2.5;
-  String texto = 'Hola';
-  bool booleano = false;
-  dynamic dinamico = 'ejemplo';
-
-  print('$entero');
-  print('$decimal');
-  print('$texto');
-  print('$booleano');
-  print('$dinamico');
+  const int MAX_VALUE = 120;
+  final int DIASANYO = (DateTime.now().year % 4 == 0) ? 366 : 365;
 }

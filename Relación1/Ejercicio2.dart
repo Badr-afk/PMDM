@@ -1,10 +1,14 @@
 void main() {
-  //Ejercicio 2
-  print('Ejercicio 2');
-  int a = 1;
-  String nombre = 'Badr';
-  print(a);
-  print(nombre);
-  //Comentarios=//
-}
+  //Ejercicio 3:Declarar variables de distinto tipo
+  int entero = 1;
+  double decimal = 2.5;
+  String texto = 'Hola';
+  bool booleano = false;
+  dynamic dinamico = 'ejemplo';
 
+  print('$entero');
+  print('$decimal');
+  print('$texto');
+  print('$booleano');
+  print('$dinamico');
+}
